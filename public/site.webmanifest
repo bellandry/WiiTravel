@@ -1,0 +1,21 @@
+{
+  "name": "WiiTravel | Simplifiez vos voyages en bus au Cameroun",
+  "short_name": "WiiTravel",
+  "description": "Réservez vos billets de bus facilement avec WiiTravel : trajets, prix et agences au Cameroun.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#d5e6fc",
+  "theme_color": "#0172B1",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
