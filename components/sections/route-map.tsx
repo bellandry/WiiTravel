@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function RouteMap() {
   return (
-    <section className="py-20 relative overflow-hidden">
+    <section className="py-20 overflow-hidden">
       <div className="absolute inset-0 map-gradient" />
       <div className="container mx-auto px-4 relative">
         <motion.div

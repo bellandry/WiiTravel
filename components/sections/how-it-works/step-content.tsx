@@ -21,6 +21,10 @@ export function StepContent({
   direction,
   display,
 }: StepContentProps) {
+  if (!step || !step.image) {
+    return null; // ou un composant de fallback
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, x: 100 * direction }}
