@@ -23,7 +23,7 @@ export function useStepTransition({
       setProgress((prev) => {
         if (prev >= 100) {
           setCurrentStep((current) => {
-            const next = current <= totalSteps - 1 ? current + 1 : 0;
+            const next = current < totalSteps - 1 ? current + 1 : 0;
             onComplete?.();
             return next;
           });
