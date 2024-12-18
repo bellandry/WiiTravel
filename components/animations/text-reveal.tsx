@@ -5,9 +5,16 @@ import { motion } from "framer-motion";
 interface TextRevealProps {
   text: string;
   delay?: number;
+  className?: string;
+  block?: React.ReactNode;
 }
 
-export function TextReveal({ text, delay = 0 }: TextRevealProps) {
+export function TextReveal({
+  text,
+  delay = 0,
+  className,
+  block,
+}: TextRevealProps) {
   const words = text.split(" ");
 
   return (
@@ -15,7 +22,7 @@ export function TextReveal({ text, delay = 0 }: TextRevealProps) {
       {words.map((word, i) => (
         <motion.span
           key={i}
-          className="inline-block overflow-hidden"
+          className={`inline-block overflow-hidden ${className}`}
           initial={{ y: "100%" }}
           whileInView={{ y: 0 }}
           viewport={{ once: true }}
@@ -28,6 +35,7 @@ export function TextReveal({ text, delay = 0 }: TextRevealProps) {
           {word}
         </motion.span>
       ))}
+      {block}
     </span>
   );
 }
