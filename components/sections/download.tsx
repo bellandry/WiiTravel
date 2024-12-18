@@ -53,7 +53,7 @@ export function Download() {
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             >
               <Image
-                src="/assets/download.png"
+                src="/assets/download.webp"
                 width={800}
                 height={600}
                 alt="CameroonBus App Screenshots"

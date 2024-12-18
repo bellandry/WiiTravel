@@ -33,13 +33,14 @@ export function Header() {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-2xl font-bold text-gradient">
+          <a href="#">
             <Image
-              src="/assets/logo-blue.png"
-              width={150}
+              src="/assets/logo-blue.webp"
+              width={100}
               height={50}
+              priority
               alt="WiiTravel blue logo"
-              className="rop-shadow-2xl"
+              className="rop-shadow-xl min-w-24 max-w-32 w-auto h-auto"
             />
           </a>
 

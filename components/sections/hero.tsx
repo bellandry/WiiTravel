@@ -24,7 +24,7 @@ export function Hero() {
     <motion.section
       ref={containerRef}
       style={{ y, opacity }}
-      className="relative min-h-screen pt-32 pb-16 overflow-hidden items-center flex"
+      className="min-h-screen pt-32 pb-16 overflow-hidden items-center flex"
     >
       <div className="absolute inset-0 hero-gradient -z-10" />
       <div className="absolute inset-0 noise-bg -z-10" />
@@ -121,9 +121,10 @@ export function Hero() {
                 style={{ perspective: 1000 }}
               >
                 <Image
-                  src="/assets/hero-image.png"
+                  src="/assets/hero-image.webp"
                   width={900}
                   height={800}
+                  priority
                   alt="WiiTravel App Interface"
                   className="rounded-lg drop-shadow-2xl"
                 />

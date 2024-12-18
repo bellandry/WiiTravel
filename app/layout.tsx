@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "WiiTravel",
     images: [
       {
-        url: "/assets/og-image.png",
+        url: "/assets/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Voyages en bus au Cameroun avec WiiTravel",
