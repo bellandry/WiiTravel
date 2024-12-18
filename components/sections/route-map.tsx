@@ -16,7 +16,7 @@ export function RouteMap() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Nos zones de <span className="text-gradient">Couverture</span>
           </h2>
-          <p className="text-md md:text-lg text-gray-600">
+          <p className="text-md md:text-xl text-gray-600">
             Nous couvrons la majorité des villes du pays
           </p>
         </motion.div>

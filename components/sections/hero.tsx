@@ -34,7 +34,7 @@ export function Hero() {
           <div>
             <FadeIn>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                <TextReveal text="Voyagez à travers le" />
+                <TextReveal text="Voyagez sereinnement à travers le" />
                 <span className="text-gradient">
                   <TextReveal text="Cameroun" delay={0.5} />
                 </span>

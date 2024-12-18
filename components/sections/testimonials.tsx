@@ -37,7 +37,7 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="text-md md:text-lg text-gray-600 max-w-2xl mx-auto"
+              className="text-md md:text-xl text-gray-600 max-w-2xl mx-auto"
             >
               Rejoignez nos milliers de voyageurs satisfaits qui ont transformé
               leur façon de voyager.

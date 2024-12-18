@@ -14,7 +14,7 @@ export function Footer() {
               height={100}
               priority
               alt="WiiTravel blue logo"
-              className="rounded-lg drop-shadow-lg mb-4 min-w-24 max-w-32 w-auto h-auto"
+              className="rounded-lg drop-shadow-lg   mb-4 min-w-24 max-w-32 w-auto h-auto"
             />
             <p className="text-gray-400">
               Simplifiez vos voyages en bus au Cameroun avec des technologies

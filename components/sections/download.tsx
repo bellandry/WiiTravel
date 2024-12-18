@@ -18,15 +18,15 @@ export function Download() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Téléchargez l&apos;application WiiTravel dès maintenant
             </h2>
-            <p className="text-xl mb-8 text-white/90">
+            <p className="text-md md:text-xl mb-8 text-white/90">
               Rejoignez des milliers d&apos;utilisateurs et rendez vos
               réservations plus faciles que jamais.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap md:flex-nowrap gap-4 justify-between md:justify-start">
               <Button
                 size="lg"
                 variant="secondary"
-                className="gap-2 py-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full gap-2 py-6 bg-white text-primary hover:bg-gray-100"
               >
                 <SiAppstore size={20} />
                 App Store
@@ -34,7 +34,7 @@ export function Download() {
               <Button
                 size="lg"
                 variant="secondary"
-                className="gap-2 py-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full gap-2 py-6 bg-white text-primary hover:bg-gray-100"
               >
                 <SiGoogleplay size={20} />
                 Play Store

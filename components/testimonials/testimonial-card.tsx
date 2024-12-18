@@ -62,14 +62,13 @@ export function TestimonialCard({
               <Image
                 src={image}
                 alt={name}
-                width={50}
-                height={50}
+                fill
                 className="rounded-full object-cover w-full h-full"
               />
               <div className="absolute inset-0 rounded-full border border-primary/20" />
             </div>
             <div>
-              <p className="font-medium text-gray-800">{name}</p>
+              <p className="font-semibold text-gray-800">{name}</p>
               <p className="text-gray-500 text-sm">{location}</p>
             </div>
           </div>

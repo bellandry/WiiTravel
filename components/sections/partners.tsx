@@ -17,7 +17,7 @@ export function Partners() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Nos <span className="text-gradient">Partenaires</span> de confiance
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-md md:text-xl text-gray-600">
             Nous travaillons avec les meilleures compagnies au Cameroun
           </p>
         </motion.div>

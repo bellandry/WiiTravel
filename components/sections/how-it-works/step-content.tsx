@@ -51,7 +51,7 @@ export function StepContent({
             {step.step}
           </span>
           <motion.h3
-            className="text-2xl font-semibold mb-3 ml-4"
+            className="text-xl md:text-2xl font-semibold mb-3 ml-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
