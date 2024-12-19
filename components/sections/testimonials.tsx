@@ -47,7 +47,7 @@ export function Testimonials() {
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-40 h-40 bg-primary/5 rounded-full blur-3xl" />
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {data?.pages
               .flat()
               .map((testimonial: Testimonial, index: number) => (
@@ -71,17 +71,17 @@ export function Testimonials() {
             transition={{ delay: 0.3 }}
             className="mt-20 flex justify-center items-center gap-8 flex-wrap mb-32"
           >
-            <div className="px-8 py-4 bg-white/50 backdrop-blur-lg rounded-2xl border border-white/20 shadow-lg">
+            <div className="px-8 py-4 bg-white/50 backdrop-blur-lg rounded-2xl flex flex-col items-center border border-white/20 shadow-lg">
               <p className="text-4xl font-bold text-gray-900 mb-1 text-gradient">
                 4.8/5
               </p>
-              <p className="text-gray-600">Average Rating</p>
+              <p className="text-gray-600">Note moyenne</p>
             </div>
-            <div className="px-8 py-4 bg-white/50 backdrop-blur-lg rounded-2xl border border-white/20 shadow-lg">
+            <div className="px-8 py-4 bg-white/50 backdrop-blur-lg rounded-2xl flex flex-col items-center border border-white/20 shadow-lg">
               <p className="text-4xl font-bold text-gray-900 mb-1 text-gradient">
                 2,000+
               </p>
-              <p className="text-gray-600">Happy Users</p>
+              <p className="text-gray-600">Utilisateurs satisfaits</p>
             </div>
           </motion.div>
         </div>

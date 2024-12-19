@@ -38,7 +38,6 @@ export function Header() {
               src="/assets/logo-blue.webp"
               width={100}
               height={50}
-              priority
               alt="WiiTravel blue logo"
               className="rop-shadow-xl min-w-24 max-w-32 w-auto h-auto"
             />

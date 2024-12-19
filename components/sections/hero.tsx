@@ -93,9 +93,7 @@ export function Hero() {
                       </motion.div>
                     ))}
                   </div>
-                  <span className="text-gray-600">
-                    4.8/5 from 2,000+ reviews
-                  </span>
+                  <span className="text-gray-600">4.8/5 sur 2,000+ avis</span>
                 </motion.div>
               </div>
             </FadeIn>
@@ -112,7 +110,6 @@ export function Hero() {
               }}
               className="relative"
             >
-              <div className="absolute inset-0 rounded-full filter blur-3xl" />
               <motion.div
                 animate={{
                   y: [0, -20, 0],
@@ -130,9 +127,8 @@ export function Hero() {
                   src="/assets/hero-image.webp"
                   width={900}
                   height={800}
-                  priority
                   alt="WiiTravel App Interface"
-                  className="rounded-lg drop-shadow-2xl"
+                  className="rounded-lg drop-shadow-2xl z-50"
                 />
                 <div className="absolute inset-0  rounded-lg" />
               </motion.div>

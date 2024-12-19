@@ -25,8 +25,8 @@ export const partners = [
 export const menuItems = [
   { name: "Services", href: "#features" },
   { name: "Partenaires", href: "#partners" },
-  { name: "Comment ça marche ?", href: "#howitworks" },
   { name: "Témoignages", href: "#testimonials" },
+  { name: "Comment ça marche ?", href: "#howitworks" },
   { name: "Télécharger", href: "#download" },
 ];
 

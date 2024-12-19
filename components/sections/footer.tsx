@@ -23,11 +23,13 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Liens Rapides</h4>
+            <h2 className="font-semibold mb-4">Liens Rapides</h2>
             <ul className="space-y-2">
-              <a href="#" className="text-gray-400 hover:text-primary">
-                Accueil
-              </a>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-primary">
+                  Accueil
+                </a>
+              </li>
               {menuItems.map((menuItem) => (
                 <li key={menuItem.name}>
                   <a
@@ -55,18 +57,21 @@ export function Footer() {
             <div className="flex space-x-4">
               <a
                 href="#"
+                aria-label="facebook"
                 className="text-gray-400 hover:text-primary transition-colors"
               >
                 <Facebook size={24} />
               </a>
               <a
                 href="#"
+                aria-label="twitter"
                 className="text-gray-400 hover:text-primary transition-colors"
               >
                 <Twitter size={24} />
               </a>
               <a
                 href="#"
+                aria-label="instagram"
                 className="text-gray-400 hover:text-primary transition-colors"
               >
                 <Instagram size={24} />
