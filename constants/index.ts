@@ -27,7 +27,6 @@ export const menuItems = [
   { name: "Partenaires", href: "#partners" },
   { name: "Témoignages", href: "#testimonials" },
   { name: "Comment ça marche ?", href: "#howitworks" },
-  { name: "Télécharger", href: "#download" },
 ];
 
 export const steps = [
